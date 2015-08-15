@@ -1,0 +1,75 @@
+The Imitation Game: Redux
+
+Jacky Boen
+artmakesus
+artmakesus@gmail.com
+https://artmakesus.com
+
+* Neobombe
+.image https://c2.staticflickr.com/6/5673/20407366300_29ec9d3890_c.jpg 480 _
+
+* MakerFaire Singapore 2015
+.image https://c2.staticflickr.com/6/5684/20601891961_af469a51b6_c.jpg 480 _
+
+* MakerFaire Singapore 2015
+.image https://c2.staticflickr.com/6/5834/20586296042_16487be56d_c.jpg 480 _
+
+* How it started
+.image https://c1.staticflickr.com/1/770/20408474519_a0b57a064d_c.jpg 480 _
+
+* Understanding how Enigma works
+- Keyboard
+- Plugboard
+- Scramblers (three or more)
+- Reflector
+.image https://c1.staticflickr.com/1/730/20586177952_3ca60bda9b_b.jpg 256 _
+.caption Image from _The_ _Code_ _Book_ by _Simon_ _Singh_
+
+* Algorithm test
+
+.play algorithm.go
+
+* First prototype
+.html first_prototype.html
+
+* First prototype
+
+- Go
+	receives and encrypt tweets, simulates Bombe, broadcast Bombe state
+
+- Processing
+	listen to Go and controls Arduino
+
+- Web (HTML5 + WebGL)
+	renders the Bombe
+
+* First prototype
+
+Disadvantages:
+
+- Fixed serial port names
+	String T1 = "/dev/ttyACM5";
+
+- Many programs to run (Go, Processing, browser)
+
+- Unplug while program is running? Exception!
+
+* Second prototype
+.html second_prototype.html
+
+* Second prototype
+- Web (Electron, React, node-serialport)
+	Receive and encrypt tweets, simulates Bombe, controls Arduino, no need to broadcast
+	
+* Second prototype
+
+Advantages:
+
+- API for connect/disconnect serial port event
+
+- Helps with wiring and flashing many Arduinos
+
+- Only one program to run
+
+* Second prototype
+demo (Electron)
