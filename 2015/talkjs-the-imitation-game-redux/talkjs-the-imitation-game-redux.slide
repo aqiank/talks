@@ -8,6 +8,7 @@ http://artmakesus.com
 * A few notes..
 - Feel free to interrupt!
 - This is a high-level overview
+- Not a best practices talk
 - Slides are at veand.co:3999
 
 * Neobombe
@@ -35,10 +36,10 @@ http://artmakesus.com
 .play algorithm.go
 
 * First prototype
-.html first_prototype.html
+.html first_prototype_a.html
 
 * First prototype
-demo (software)
+.html first_prototype_b.html
 
 * First prototype
 
@@ -56,7 +57,11 @@ demo (software)
 Disadvantages:
 
 - Fixed serial port names
-	String T1 = "/dev/ttyACM5";
+	String T1 = "/dev/ttyACM0"
+	...
+	String M1 = "/dev/ttyACM6"
+	...
+	String B1 = "/dev/ttyACM9"
 
 - Many programs to run (Go, Processing, browser)
 
@@ -78,6 +83,18 @@ Advantages:
 - Helps with wiring and flashing many Arduinos
 
 - Only one program to run
+
+* Second prototype - Listeners
+.code app.js
+
+* Second prototype - Arduino
+.code arduino_setup.c
+
+* Second prototype - Handling Serial Port
+.code main.js
+
+* Second prototype - Status Panel
+.code app_status.js
 
 * Second prototype
 demo (software)
