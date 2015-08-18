@@ -44,13 +44,16 @@ http://artmakesus.com
 * First prototype
 
 - Go
-	receives and encrypt tweets, simulates Bombe, broadcast Bombe state
+	receives and encrypt tweets, simulates Bombe, broadcast Bombe state through OSC
 
 - Processing
-	listen to Go and controls Arduino
+	listen to Go through OSC and controls Arduino
 
 - Web (HTML5 + WebGL)
 	renders the Bombe
+
+- Arduino (C/C++)
+	controls the motors
 
 * First prototype
 
@@ -73,6 +76,9 @@ Disadvantages:
 * Second prototype
 - Web (Electron, React, node-serialport)
 	Receive and encrypt tweets, simulates Bombe, controls Arduino, no need to broadcast
+
+- Arduino (C/C++)
+	controls the motors
 	
 * Second prototype
 
