@@ -5,6 +5,11 @@ artmakesus
 artmakesus@gmail.com
 http://artmakesus.com
 
+* A few notes..
+- Feel free to interrupt!
+- This is a high-level overview
+- Slides are at veand.co:3999
+
 * Neobombe
 .image https://c2.staticflickr.com/6/5673/20407366300_29ec9d3890_c.jpg 480 _
 
@@ -31,6 +36,9 @@ http://artmakesus.com
 
 * First prototype
 .html first_prototype.html
+
+* First prototype
+demo (software)
 
 * First prototype
 
@@ -72,4 +80,4 @@ Advantages:
 - Only one program to run
 
 * Second prototype
-demo (Electron)
+demo (software)
